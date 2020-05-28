@@ -1,5 +1,23 @@
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+div{
+  font-family: PingFang-SC-Regular;
+}
+
+a{
+  text-decoration: none;
+  color: #999999;
 }

@@ -1,0 +1,46 @@
+.book_info{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.each{
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  background-color: white;
+  align-items: center;
+  margin: 10px 15px 0 15px;
+  padding: 10px 15px 10px 10px;
+  border-radius: 8px;
+}
+
+.first{
+  display: flex;
+
+}
+
+body{
+  background-color: #F9F9F9;
+}
+
+.love img{
+  height: 16px;
+  width: 16px;
+}
+
+.book_info{
+  height: 43px;
+  margin-left: 10px;
+}
+
+.book_name{
+  font-size: 14px;
+  color: #000;
+}
+
+.author {
+  font-size: 10px;
+  color: #999;
+}
