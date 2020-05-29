@@ -1,0 +1,91 @@
+.s_body {
+  width: 345px;
+  height: 34px;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0;
+}
+body{
+  height: 600px;
+  width: 375px;
+}
+
+.body_book{
+  background-color: #F9F9F9;
+}
+
+.select img{
+  // width: 33px;
+  height: 16px;
+}
+
+.select{
+  text-align: center;
+  padding: 19px 0 12.5px 0;
+}
+
+.content{
+  padding: 0 45px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.content>div{
+  height: 180px;
+  width: 120px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow:0px 1px 6px 0px rgba(201, 201, 201, 0.1);
+}
+
+.content_1{
+  flex: 1;
+  // height: 67px;
+  width: 120px;
+  // background-color: red;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.pic_1 img{
+  height: 101px;
+  width: 120px;
+}
+
+.comment{
+  display: flex;
+  align-self: flex-end;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  color: #999999;;
+}
+
+.circle{
+  width: 3px;
+  height: 3px;
+  background-color: #666;
+  margin: 0 4px;
+}
+
+.name{
+  font-size: 12px;
+}
+
+.title{
+  color: #1F1F1F;
+}
+
+.book_1{
+  margin-bottom: 30px;
+}
+
+.name {
+  color: #999999;
+}

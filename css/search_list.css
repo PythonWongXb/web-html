@@ -1,0 +1,57 @@
+.body_search_list{
+  padding: 0 0 0 15px;
+}
+
+.books{
+  display: flex;
+  padding: 3px 0;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.b_1{
+  display: flex;
+  border-bottom: 1px #eeeeee solid;
+  padding: 15px 0;
+}
+
+.t_1{
+  font-size: 14px;
+  color: #010101;
+}
+
+.t_2{
+  font-size: 10px;
+}
+
+.red{
+  color: red;
+}
+.s_b{
+  color: #000000;
+  align-self: flex-start;
+}
+
+.s_body{
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.mid{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.mid_mid{
+  display:flex;
+  align-items: center;
+}
+
+.icon{
+  height: 12px;
+  width: 12px;
+  line-height: 12px;
+}

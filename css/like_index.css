@@ -1,8 +1,8 @@
 .head{
-  width: 375px;
   background: url(/imgs/3.喜欢/背景@2x.png) no-repeat;
   background-size: cover;
   padding: 127px 73px 14.5px 73px;
+  box-shadow:0px 2px 8px 0px rgba(201, 201, 201, 0.15);
 }
 
 .main_hd{
@@ -37,6 +37,7 @@
 .about_us img{
   height: 17px;
   width: 17px;
+  line-height: 17px;
 }
 
 .about_us{
@@ -74,13 +75,13 @@
 }
 
 .like img{
-  height: 16px;
-  width: 32.5px;
+  height: 19.5px;
+  width:48.5px;
 }
 
 .body{
   background-color: #F5F5F5;
-  padding: 25.5px 15px 0px 15px;
+  padding: 25.5px 15px 41px 15px;
 }
 
 .one{
@@ -93,6 +94,7 @@
   flex-direction: column;
   padding-top: 10px;
   padding-bottom: 20px;
+  box-shadow:0px 1px 9px 0px rgba(186, 186, 186, 0.2);
 }
 
 .content{
@@ -108,6 +110,7 @@
   background-color: #F7F7F7;
   text-align: center;
   line-height: 20px;
+  color: #0F0F0F;
 }
 
 .n_like{
@@ -131,6 +134,7 @@
 
 .t_n_like{
   font-size: 9px;
+  color: #BBBBBB;
 }
 
 .pic_like{
@@ -156,12 +160,17 @@
 
 .footer{
   height: 44px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 5px 50px 5px 50px;
   text-align: center;
   font-size: 10px;
-  border-top: 1px #C9C9C9 solid;
+  // border-top: 1px #C9C9C9 solid;
+  box-shadow:0px -1px 7px 0px rgba(201, 201, 201, 0.2);
+  position: fixed;
+  bottom: 0;
+  background-color: white;
 }
 
 .footer img{
